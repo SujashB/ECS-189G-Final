@@ -7,13 +7,16 @@ This repository contains our ECS 189G final project code and notebook exploring 
 - **Low-Rank Adaptation (LoRA)**
 - **Adversarial Reasoning Thinking Module (ARTM)**
 - **Positional-Adaptive Attention Fusion (PAAF)** (old method not included in final report; preserved here for posterity)
+
 and compare their effects - both alone and in combination - on the AdvGLUE adversarial benchmarks.
 
 ## Files
+```
 - dev_ann.json                   # AdvGLUE adversarial examples
 - dial.txt                       # DailyDialog training examples
 - ECS189G_Final_Project.ipynb    # end-to-end Colab notebook: data prep, training variants, eval
 - README.md                      # this file
+```
 
 ## Usage
 Clone this repo, open ECS189G_Final_Project.ipynb, and replace the first line with the directory of this project in your computer. Then run the rest of the notebook.
